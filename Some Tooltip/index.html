@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="w-full min-h-[200vh] bg-zinc-900 text-white p-20">
+    <div class="relative w-fit ">
+        <button id="hide" class="bg-red-600 px-8 py-2 rounded-md font-semibold">BTN</button>
+
+        <div class=" hidden bg-green-500 tooltip w-full absolute -top-1 left-0 -translate-y-full z-[2] bg-reg-500 p-1 px-3 rounded-md font-semibold text-xs">
+            Hello
+        </div>
+    </div>    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
